@@ -49,3 +49,33 @@ footer {
 #center {
 	padding-top: 120px;
 }
+
+@media (max-width: 1400px) {
+	#mcanvas {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#mcanvas {
+		max-width: 1000px;
+	}
+}
+
+@media (max-width: 1000px) {
+	#mcanvas {
+		max-width: 800px;
+	}
+}
+
+@media (max-width: 800px) {
+	#mcanvas {
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+	#mcanvas {
+		max-width: 200px;
+	}
+}
